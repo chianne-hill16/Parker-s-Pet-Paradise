@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parker's Pet Paradise</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <div class="header"">
+    <div class=" row">
+    <div class="col-12">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      </nav>
+    </div>
+  </div>
+  </div>
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="about.html">About</a>
+      <a href="booking.html">Booking</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <div class="container-fluid"">
+    <h3>Welcome to Parker's Pet Paradise! Quality pet grooming services with a loving team. Our team is dedicated to making your pups and cats clean and healthy. We offer various services including nail trimming, bathing, and more.</h3>
+  </div>
+
+  <br>
+  
+  <div class=" container-fluid"">
+    <h4><b>Your Pup's pawsome paradise.</b></h4>
+    <p>Here at Parker's Pet Paradise, we strive to help your animals feel comfortable and safe. We offer many items,
+      such as treats and toys, to make this the purrfect giveaway. Book an appointment today! </p>
+  </div>
+
+  <br>
+
+  <div>
+    <h2>Our Pawsome and Purrfect Customers</h2>
+  </div>
+
+  <div class="scroll-container">
+    <img class="shadow-filter" width="350" height="350" src="https://tinyurl.com/wuaf7xp5" alt="Puppy in Bath">
+    <img class="shadow-filter" width="350" height="350" src="https://tinyurl.com/4r2e5zvu" alt="Washing Puppy">
+    <img class="shadow-filter" width="350" height="350" src="https://tinyurl.com/m9vvcusp" alt="Clipping Kitten">
+    <img class="shadow-filter" width="350" height="350" src="https://tinyurl.com/5n76bcah" alt="Shaving Kitten">
+    <img class="shadow-filter" width="350" height="350" src="https://tinyurl.com/4mrw9737" alt="Puppy in Bath">
+  </div>
+
+    <br>
+ 
+  <div class="slideshow-container">
+
+
+    <div class="mySlides">
+      <q>Parker's Pet Paradise is my go-to for my dogs. Their services have always been the best and the employees are the nicest people I've encountered.</q>
+      <p class="author">- Google Reviewer</p>
+    </div>
+  
+    <div class="mySlides">
+      <q>My kitties love being here at Parker's Pet Paradise. </q>
+      <p class="author">- Yelp Reviewer</p>
+    </div>
+  
+    <div class="mySlides">
+      <q>Omg this place is so great ahahahahh</q>
+      <p class="author">- Google Reviewer</p>
+    </div>
+  
+  
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  
+  
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
