@@ -4,6 +4,7 @@ html {
   }
   
   body {
+    background-color: #b8e6d3;
     font-family: 'Lato', sans-serif;
   }
   
@@ -82,10 +83,9 @@ html {
     text-align: center;
   }
   
- 
-/* start of container */
 .slideshow-container {
   position: relative;
+  background: #f1f1f1f1;
 }
 
 .mySlides {
@@ -94,10 +94,10 @@ html {
   text-align: center;
 }
 
-
 .dot-container {
   text-align: center;
   padding: 20px;
+  background: #ddd;
 }
 
 
@@ -123,6 +123,16 @@ q {
 }
 
 
-.reviewer{
+.reviewer {
   color: cornflowerblue;
 }
+
+#opener {
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+
+ 
+ 
