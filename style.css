@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
 html {
     height: 100%;
     width: 100%;
   }
   
   body {
-    background-color: #b8e6d3;
-    font-family: 'Lato', sans-serif;
+    background-color: #edf8f6;
+    font-family: "Red Hat Display", sans-serif;
   }
   
   .overlay {
@@ -75,7 +77,11 @@ html {
   }
   
   .shadow-filter {
-    filter: drop-shadow(8px 8px 10px black);
+    filter: drop-shadow(8px 8px 10px #98ddca);
+  }
+
+  #scroll{
+    border-radius: 20%;
   }
   
   .container-fluid {
@@ -130,7 +136,26 @@ q {
 #opener {
   margin-top: 10px;
   text-align: center;
+  color:#96c6aa;
+  font-weight: bolder;
 }
+
+#header-1{
+  color:#b8d8be;
+}
+
+
+#paragraph-1{
+  color:#99b39e;
+  font-weight: 400;
+}
+
+#header-2{
+  text-align: center;
+  color:#b8d8be;
+  font-weight: bold;
+}
+
 
 
 
