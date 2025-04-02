@@ -91,19 +91,19 @@ html {
   
 .slideshow-container {
   position: relative;
-  background: #f1f1f1f1;
+  background: #b8dbd3;
 }
 
 .mySlides {
   display: none;
   padding: 80px;
   text-align: center;
+  color:white;
 }
 
 .dot-container {
   text-align: center;
   padding: 20px;
-  background: #ddd;
 }
 
 
@@ -120,7 +120,7 @@ html {
 
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color:	#68c4af;
 }
 
 
@@ -138,6 +138,8 @@ q {
   text-align: center;
   color:#96c6aa;
   font-weight: bolder;
+  background-image: url("https://tinyurl.com/2phnvdtz");
+  background-size: auto;
 }
 
 #header-1{
@@ -154,6 +156,18 @@ q {
   text-align: center;
   color:#b8d8be;
   font-weight: bold;
+}
+
+#header-3{
+  text-align: center;
+  font-weight: bold;
+  color:#b8d8be;
+}
+
+#paragraph-2{
+  text-align: center;
+  color:#99b39e;
+  font-weight: 400;
 }
 
 
